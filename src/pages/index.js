@@ -3,8 +3,8 @@ import { LinkArrow } from '@/components/Icons'
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/devee.png'
-import Jungla from '../../public/images/profile/bg.png'
+import profilePic from '../../public/images/profile/devee.webp'
+import Jungla from '../../public/images/profile/bg.webp'
 import AnimatedText from '@/components/AnimatedText'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="description" content="Pablo Barrios Developer" />
       </Head>
       <TransitionEffect />
-      <main className='flex items-center text-dark w-full h-min-screen'>
+      <main className='flex items-center text-dark w-full h-min-screen '>
         <div className="fixed inset-0 z-0 pointer-events-none">
           <Image src={Jungla} alt='Selva' className='w-full h-full object-cover' />
         </div>

@@ -4,12 +4,12 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useRef, useEffect } from 'react'
-import profilePic from '../../public/images/profile/pol.png'
+import profilePic from '../../public/images/profile/pol.webp'
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
 import TransitionEffect from '@/components/TransitionEffect'
-import Jungla from '../../public/images/profile/bg.png'
+import Jungla from '../../public/images/profile/bg.webp'
 
 
 const AnimatedNumbers = ({ value }) => {
@@ -47,7 +47,7 @@ const about = () => {
           <Image src={Jungla} alt='Selva' className='w-full h-full object-cover' />
         </div>
         <Layout className='pt-16'>
-          <AnimatedText text='El sueño de ser programador' className='py-12 xs:py-2 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+          <AnimatedText text='En continua innovación' className='py-12 xs:py-2 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8 '>
             <div className='col-span-3 flex flex-col item justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>Acerca de mí</h2>
