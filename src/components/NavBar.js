@@ -1,11 +1,7 @@
-
-
-import React, { useState } from 'react'
-import Link from "next/link"
-import { useRouter } from 'next/navigation'
-import { GithubIcon, LinkedInIcon, WhatsAppIcon } from './Icons'
-import { motion } from 'framer-motion'
-
+import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { GithubIcon, LinkedInIcon, WhatsAppIcon } from './Icons';
+import { motion } from 'framer-motion';
 import Logo from './logo'
 
 const CustomLink = ({ href, title, className = '' }) => {
@@ -25,7 +21,7 @@ const CustomLink = ({ href, title, className = '' }) => {
 }
 
 const CustomMobileLink = ({ href, title, className = '', toggle }) => {
-	const router = usePathname();
+	const router = useRouter();
 
 	const handleClick = () => {
 		toggle();
@@ -53,7 +49,7 @@ const NavBar = () => {
 		<header
 			className='w-full px-32 py-8 font-medium flex items-center justify-between relative z-10 lg:px-16 md:px-12 sm:px-8'
 		>
-			<button className='flex-col justify-center items-center hidden lg:flex bg-lime-500' onClick={handleClick}>
+			<button className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
 				<span className={`bg-light  block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm  ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
 				<span className={`bg-light  block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
 				<span className={`bg-light  block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm  ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
@@ -84,7 +80,7 @@ const NavBar = () => {
 				<nav className='flex items-center justify-center flex-wrap mt-2'>
 					<motion.a href='https://github.com/polsze' target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mr-3 bg-light rounded-full sm:mx-1'><GithubIcon /></motion.a>
 					<motion.a href='https://api.whatsapp.com/send?phone=543765252582' target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 bg-green-600 rounded-full'><WhatsAppIcon /></motion.a>
-					<motion.a href='/' target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 bg-light rounded-full sm:mx-1'><LinkedInIcon /></motion.a>
+					<motion.a href='https://www.linkedin.com/in/pablo-barrios-2ba888231/' target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 bg-light rounded-full sm:mx-1'><LinkedInIcon /></motion.a>
 				</nav>
 			</motion.div>
 				: null}
