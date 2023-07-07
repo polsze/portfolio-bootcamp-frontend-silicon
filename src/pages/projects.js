@@ -62,7 +62,7 @@ const FeaturedProject2 = ({ type, title, summary, img, link, github }) => {
         <p className='my-2 font-medium text-dark'>{summary}</p>
         <div className='mt-2 flex items-center'>
           <Link href={github} target={"_blank"} className='w-10'><GithubIcon /></Link>
-          <Link href="https://pablobarriosportfolio-blond.vercel.app/projects" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</Link>
+          <Link href="https://yararaenaccion.vercel.app/" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</Link>
         </div>
       </div>
 
@@ -102,7 +102,7 @@ const projects = () => {
                 title="Yarara en Acción"
                 img={Project2}
                 summary="Página web para una asociación orientada en nuestra fauna y su protección, dedicada al rescate y la liberación de animales silvestres."
-                link="https://pablobarriosportfolio-blond.vercel.app/projects"
+                link="https://yararaenaccion.vercel.app/"
                 github="https://github.com/polsze/yarara"
                 type="Proyecto en Desarrollo"
               />
