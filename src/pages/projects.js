@@ -56,13 +56,13 @@ const FeaturedProject2 = ({ type, title, summary, img, link, github }) => {
 
       <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
         <span className='text-primary font-medium text-xl xs:text-base'>{type}</span>
-        <Link href={link} target={"_blank"} className='hover:underline underline-offset-2'>
+        <Link href="https://yararaenaccion.vercel.app/" target={"_blank"} className='hover:underline underline-offset-2'>
           <h2 className='my-2 w-full text-left text-4xl font-bold sm:text-sm'>{title}</h2>
         </Link>
         <p className='my-2 font-medium text-dark'>{summary}</p>
         <div className='mt-2 flex items-center'>
           <Link href={github} target={"_blank"} className='w-10'><GithubIcon /></Link>
-          <Link href={github} target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</Link>
+          <Link href="https://yararaenaccion.vercel.app/" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</Link>
         </div>
       </div>
 
