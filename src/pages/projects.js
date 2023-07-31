@@ -7,6 +7,7 @@ import Link from 'next/link'
 import React from 'react'
 import Project1 from '../../public/images/projects/21.webp'
 import Project2 from '../../public/images/projects/project2.webp'
+import Project3 from '../../public/images/projects/sa.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 import Cubes from '../../public/images/profile/bg.webp'
@@ -70,6 +71,32 @@ const FeaturedProject2 = ({ type, title, summary, img, link, github }) => {
   )
 }
 
+const FeaturedProject3 = ({ type, title, summary, img, link, github }) => {
+  return (
+    <article className='w-full flex items-center justify-between rounded-br-2xl rounded-3xl border border-solid border-dark
+     bg-light shadow-2xl p-12 relative lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4
+     '>
+      <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl'></div>
+      <Link href={link} target={"_blank"} className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'>
+        <FramerImage src={img} alt={title} className='w-full h-auto' whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }} />
+      </Link>
+
+      <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
+        <span className='text-primary font-medium text-xl xs:text-base'>{type}</span>
+        <Link href={link} target={"_blank"} className='hover:underline underline-offset-2'>
+          <h2 className='my-2 w-full text-left text-4xl font-bold sm:text-sm'>{title}</h2>
+        </Link>
+        <p className='my-2 font-medium text-dark'>{summary}</p>
+        <div className='mt-2 flex items-center'>
+          <Link href={github} target={"_blank"} className='w-10'><GithubIcon /></Link>
+          <Link href="https://serviceautorizado.vercel.app/" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</Link>
+        </div>
+      </div>
+
+    </article>
+  )
+}
 
 
 const projects = () => {
@@ -98,6 +125,16 @@ const projects = () => {
               />
             </div>
             <div className='col-span-12'>
+              <FeaturedProject3
+                title="Service Autorizado"
+                img={Project3}
+                summary="Página web para un Servicio Técnico de Heladeras en Capital Federal, Buenos Aires."
+                link="https://serviceautorizado.vercel.app/"
+                github="https://github.com/polsze/serviceautorizado"
+                type="Proyecto en Desarrollo"
+              />
+            </div>
+            <div className='col-span-12'>
               <FeaturedProject2
                 title="Yarara en Acción"
                 img={Project2}
@@ -107,6 +144,7 @@ const projects = () => {
                 type="Proyecto en Desarrollo"
               />
             </div>
+            
           </div>
         </Layout>
         <div className='absolute right-32 bottom- inline-block w-96 md:hidden 2xl:hidden '>
