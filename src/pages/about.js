@@ -52,7 +52,7 @@ const about = () => {
             <div className='col-span-3 flex flex-col item justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>Acerca de mí</h2>
               <p className='my-4 font-medium'>
-                Hola, soy Pablo Barrios, un apasionado programador y diseñador trainee, en permanente actualización en el uso de tecnologías para el desarrollo
+                Hola, soy Pablo Barrios, un apasionado programador y diseñador junior, en permanente actualización en el uso de tecnologías para el desarrollo
                 de aplicaciones WEB funcionales y orientadas
                 en la experiencia del usuario para una eficaz navegación. Empecé a estudiar programación full stack en el año 2022, extendiéndose hasta el presente.
                 Preparándome para poder insertarme en este mundo y cumplir mi sueño de ser ¡Programador!.
