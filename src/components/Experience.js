@@ -48,9 +48,7 @@ const Experience = () => {
             companyLink="www.google.com"
             time="2022 - Presente"
             address="Posadas, Misiones"
-            work="Actualmente desarrollando una página web para una asociación de fauna que se encarga de rescatar y liberar animales salvajes.
-          Por otra parte, restan pequeños detalles para finalizar la página web de un luthier profesional que trabaja con artistas de 
-          renombre en el ambiente del Rock Nacional. A futuro implementará E-Commerce."
+            work="Desarrollo de aplicaciones o páginas web."
           />
           <Details
             position="Vendedor Viajante"

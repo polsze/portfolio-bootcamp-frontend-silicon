@@ -9,7 +9,7 @@ import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
 import TransitionEffect from '@/components/TransitionEffect'
-import Jungla from '../../public/images/profile/bg.webp'
+import Jungla from '../../public/images/profile/bgtech.jpg'
 
 
 const AnimatedNumbers = ({ value }) => {

@@ -3,8 +3,8 @@ import { LinkArrow } from '@/components/Icons'
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/devee.webp'
-import Jungla from '../../public/images/profile/bg.webp'
+import profilePic from '../../public/images/profile/developer-img.webp'
+import Background from '../../public/images/profile/bgtech.webp'
 import AnimatedText from '@/components/AnimatedText'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -18,7 +18,7 @@ export default function Home() {
       <TransitionEffect />
       <main className='flex items-center text-dark w-full h-min-screen '>
         <div className="fixed inset-0 z-0 pointer-events-none">
-          <Image src={Jungla} alt='Selva' className='w-full h-full object-cover' />
+          <Image src={Background} alt='Selva' className='w-full h-full object-cover' />
         </div>
         <Layout className='pt-0 md:pt-16 sm:pt-2 lg:py-48'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
@@ -26,7 +26,7 @@ export default function Home() {
               <Image src={profilePic} alt='developer' className='w-full h-auto lg:hidden md:inline-block md:w-full md:mt-8' priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center '>
-              <AnimatedText text='Hacer posible lo imposible con código. ¡Bienvenidos!' className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
+              <AnimatedText text='¡Bienvenidos al portfolio de Pablo Barrios!' className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
                 Desarrollo de páginas web modernas y adaptables a diferentes dispositivos, basadas en interfaces orientadas en la fluida experiencia del usuario.
                 Navegá y visitá los proyectos realizados.
