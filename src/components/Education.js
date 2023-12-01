@@ -43,6 +43,12 @@ const Education = () => {
       <div ref={ref} className='w-[75%] mb-48 mx-auto relative lg:w-[90%] md:w-full'>
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+        <Details
+            type="Desarrollo Web Full Stack React - Node.JS"
+            time="2023"
+            place="Silicon Misiones"
+            info="Curso de programación Full Stack en React y Node.JS"
+          />
           <Details
             type="Inglés IT Intermedio"
             time="2023"
@@ -65,7 +71,7 @@ const Education = () => {
             type="Argentina Programa - Desarrollador Web Full Stack JR"
             time="2022"
             place="Argentina"
-            info="Introducción a la Programación. HTML, CSS, JavaScript, Angular, MySQL, Programación Orientada a Objetos, Java, Java Spring Boot."
+            info="Introducción a la Programación. HTML, CSS, Bootstrap, JavaScript, Angular, MySQL, Programación Orientada a Objetos, Java, Java Spring Boot, DevOps."
           />
         </ul>
       </div>
