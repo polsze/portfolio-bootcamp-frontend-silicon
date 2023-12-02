@@ -26,8 +26,7 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center '>
               <AnimatedText text='¡Bienvenidos al portfolio de Pablo Barrios!' className='text-pink-500 !text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
               <p className='my-4 text-lg font-medium text-white md:text-sm sm:text-xs'>
-                Desarrollo de páginas web modernas y adaptables a diferentes dispositivos, basadas en interfaces orientadas en la fluida experiencia del usuario.
-                Navegá y visitá los proyectos realizados.
+                Aquí encontrarás una selección de mis proyectos más destacados. Navegá y conoceme.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="https://api.whatsapp.com/send?phone=543765252582" target={"_blank"} className='flex items-center bg-green-700 text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base' download={true}>

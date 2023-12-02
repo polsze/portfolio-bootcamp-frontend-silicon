@@ -42,7 +42,7 @@ const Education = () => {
       </h2>
       <div ref={ref} className='w-[75%] mb-48 mx-auto relative lg:w-[90%] md:w-full'>
 
-        <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+        <ul className='w-full flex flex-col items-start justify-between'>
         <Details
             type="Desarrollo Web Full Stack React - Node.JS"
             time="2023"

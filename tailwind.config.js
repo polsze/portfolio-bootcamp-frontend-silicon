@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         mont: ['var(--font-mont)'],
         lobster: ['Lobster', 'cursive'],
+        racing: ['Racing Sans One', 'sans-serif']
       },
       colors: {
     dark: "#1b1b1b",

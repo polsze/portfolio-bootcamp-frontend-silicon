@@ -41,7 +41,7 @@ const Experience = () => {
       </h2>
       <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
 
-        <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+        <ul className='w-full flex flex-col items-start justify-between'>
           <Details
             position="Desarrollador Web"
             company="Freelance"

@@ -50,7 +50,7 @@ const FeaturedProject2 = ({ type, title, summary, img, link, github }) => {
     <article className='w-full flex items-center justify-between rounded-br-2xl rounded-3xl border border-solid border-dark
      bg-light shadow-2xl p-12 relative lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4
      '>
-      <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2.5rem]  rounded-br-3xl'></div>
+      <div className='absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl'></div>
       <Link href={link} target={"_blank"} className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'>
         <FramerImage src={img} alt={title} className='w-full h-auto' whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }} />
@@ -140,9 +140,9 @@ const projects = () => {
         <div className="fixed inset-0 z-0 pointer-events-none bg-violet-800">
         </div>
         <Layout className='pt-16'>
-          <AnimatedText text="Creatividad en los diseños" className='py-12 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
+          <AnimatedText text="Proyectos realizados" className='py-12 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
-            <div className='col-span-12'>
+            <div className='col-span-12 px-6'>
               <FeaturedProject
                 title="Haush Guitars"
                 img={Project1}
@@ -152,7 +152,7 @@ const projects = () => {
                 type="Proyecto destacado"
               />
             </div>
-            <div className='col-span-12'>
+            <div className='col-span-12 px-6'>
               <FeaturedProject3
                 title="Service Oficial CABA"
                 img={Project3}
@@ -163,7 +163,7 @@ const projects = () => {
               />
             </div>
 
-            <div className='col-span-12'>
+            <div className='col-span-12 px-6'>
               <FeaturedProject4
                 title="Info Chaltén"
                 img={Project4}
@@ -174,7 +174,7 @@ const projects = () => {
               />
             </div>
 
-            <div className='col-span-12'>
+            <div className='col-span-12 px-6 pb-6'>
               <FeaturedProject2
                 title="Yarará en Acción"
                 img={Project2}

@@ -44,12 +44,12 @@ const about = () => {
       <TransitionEffect />
       <main className='flex w-full flex-col items-center justify-center'>
         <div className="fixed inset-0 z-0 pointer-events-none bg-violet-800">
-          
+
         </div>
         <Layout className='pt-16'>
           <AnimatedText text='En continua innovación' className='py-12 xs:py-2 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8 '>
-            <div className='col-span-3 flex flex-col item justify-start xl:col-span-4 md:order-2 md:col-span-8'>
+            <div className='col-span-3 flex flex-col item justify-start pl-2 xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>Acerca de mí</h2>
               <p className='my-4 font-medium'>
                 Hola, soy Pablo Barrios, un apasionado programador y diseñador junior, en permanente actualización en el uso de tecnologías para el desarrollo
@@ -66,7 +66,7 @@ const about = () => {
 
             <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
             bg-light p-8 xl:col-span-4 md:order-1 md:col-span-8'>
-              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark '></div>
+              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%]  rounded-[2rem] bg-dark xl:-right-0'></div>
               <Image src={profilePic} alt="Pablo Barrios, Pablo Barrios Developer" className='w-50 h-auto rounded-2xl' priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" />
             </div>
             <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
