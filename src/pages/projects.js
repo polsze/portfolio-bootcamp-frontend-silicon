@@ -136,7 +136,7 @@ const projects = () => {
         <meta name='description' content='Proyectos realizados' />
       </Head>
       <TransitionEffect />
-      <main className='w-full mb-16 flex flex-col items-center justify-center'>
+      <main className='w-full flex flex-col items-center justify-center'>
         <div className="fixed inset-0 z-0 pointer-events-none bg-violet-800">
         </div>
         <Layout className='pt-16'>

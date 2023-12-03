@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
-    <footer className='w-full border-t-2 border-solid border-dark
+    <footer className='p-8 w-full border-t-2 border-solid border-dark
     font-mediun text-lg sm:text-base xs:text-center
     '>
       <Layout className='py-8 flex items-center justify-between lg:flex-col lg:py-4'>

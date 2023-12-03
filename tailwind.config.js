@@ -6,7 +6,8 @@ module.exports = {
       fontFamily: {
         mont: ['var(--font-mont)'],
         lobster: ['Lobster', 'cursive'],
-        racing: ['Racing Sans One', 'sans-serif']
+        racing: ['Racing Sans One', 'sans-serif'],
+        oswald: ['Oswald', 'sans-serif']
       },
       colors: {
     dark: "#1b1b1b",
@@ -18,7 +19,9 @@ module.exports = {
         'spin-slow': 'spin 3s linear infinite',
       },
       backgroundImage: {
-        "heroBg":"url(/images/profile/programacion.webp)"
+        "heroBg":"url(/images/profile/programacion.webp)",
+        "contactBg":"url(/images/profile/bgcode3.webp)"
+        
       },
     },
     screens:{
