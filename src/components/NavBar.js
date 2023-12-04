@@ -60,7 +60,7 @@ const NavBar = () => {
 					<CustomLink href='/' title='Inicio' className='mr-4 text-light' />
 					<CustomLink href='/about' title='Sobre mí' className='mx-4 text-light' />
 					<CustomLink href='/projects' title='Proyectos' className='ml-4 text-light' />
-					<CustomLink href='/contact' title='Contacto' className='ml-4 text-light' />
+					<CustomLink href='/Contact' title='Contacto' className='ml-4 text-light' />
 
 				</nav>
 
@@ -77,7 +77,7 @@ const NavBar = () => {
 					<CustomMobileLink href='/' title='Inicio' className='' toggle={handleClick} />
 					<CustomMobileLink href='/about' title='Sobre mí' className='' toggle={handleClick} />
 					<CustomMobileLink href='/projects' title='Proyectos' className='' toggle={handleClick} />
-					<CustomMobileLink href='/contact' title='Contacto' className='' toggle={handleClick} />
+					<CustomMobileLink href='/Contact' title='Contacto' className='' toggle={handleClick} />
 
 				</nav>
 

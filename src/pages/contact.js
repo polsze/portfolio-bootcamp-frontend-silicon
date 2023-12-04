@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import useForm from "@/components/useForm.js";
+import  useForm  from "@/components/useForm.js";
 import Head from 'next/head'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -8,7 +8,7 @@ import Layout from "@/components/Layout";
 
 
 
-const contact = () => {
+const Contact = () => {
   const initialData = {
     nombre: "",
     correo: "",
@@ -183,4 +183,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
