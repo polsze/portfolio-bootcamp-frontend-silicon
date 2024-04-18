@@ -46,9 +46,9 @@ const Experience = () => {
             position="Desarrollador Web"
             company="Freelance"
             companyLink="www.google.com"
-            time="2022 - Presente"
+            time="2023 - Presente"
             address="Posadas, Misiones"
-            work="Desarrollo de aplicaciones o páginas web."
+            work="Desarrollo de aplicaciones, páginas web y sistemas"
           />
           <Details
             position="Vendedor Viajante"
