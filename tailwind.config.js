@@ -19,9 +19,8 @@ module.exports = {
         'spin-slow': 'spin 3s linear infinite',
       },
       backgroundImage: {
-        "heroBg":"url(/images/profile/programacion.webp)",
-        "contactBg":"url(/images/profile/bgcode3.webp)"
-        
+        "heroBg":"url(/images/profile/pablobarrios.png)",
+        "contactBg":"url(/images/profile/bgcode3.webp)"       
       },
     },
     screens:{

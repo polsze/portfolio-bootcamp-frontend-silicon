@@ -42,7 +42,7 @@ const about = () => {
       </Head>
       <TransitionEffect />
       <main className='flex w-full flex-col items-center justify-center'>
-        <div className="fixed inset-0 z-0 pointer-events-none bg-violet-800">
+        <div className="fixed inset-0 z-0 pointer-events-none ">
 
         </div>
         <Layout className='pt-16'>

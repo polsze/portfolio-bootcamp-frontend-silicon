@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-gradient {
+  background: linear-gradient(90deg, #8A2BE2, #32CD32); /* Violeta a verde */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

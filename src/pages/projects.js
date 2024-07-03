@@ -13,6 +13,8 @@ import Project5 from "../../public/images/projects/eflow.png";
 import Project6 from "../../public/images/projects/suka.webp";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
+import { Icon } from '@iconify/react';
+
 
 const FramerImage = motion(Image);
 
@@ -368,7 +370,7 @@ const projects = () => {
       </Head>
       <TransitionEffect />
       <main className="w-full flex flex-col items-center justify-center">
-        <div className="fixed inset-0 z-0 pointer-events-none bg-violet-800"></div>
+        <div className="fixed inset-0 z-0 pointer-events-none"></div>
         <Layout className="pt-16">
           <AnimatedText
             text="Proyectos realizados"
@@ -376,6 +378,16 @@ const projects = () => {
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 px-6">
+            <div className="col-span-12 px-6">
+              <FeaturedProject4
+                title="Info Chaltén"
+                img={Project4}
+                summary="Desarrollo de una Aplicación No Code y Landing Page para Turistas y Residentes Locales, ofreciendo información detallada y servicios útiles para explorar y disfrutar tanto de los destinos turísticos como de la vida cotidiana en El Chaltén"
+                link="https://infochalten.com/"
+                github="https://github.com/polsze/"
+                type="Proyecto Destacado"
+              />
+            </div>
               <FeaturedProject
                 title="Haush Guitars"
                 img={Project1}
@@ -386,16 +398,7 @@ const projects = () => {
               />
             </div>
 
-            <div className="col-span-12 px-6">
-              <FeaturedProject4
-                title="Info Chaltén"
-                img={Project4}
-                summary="Desarrollo de una Aplicación No Code y Landing Page para Turistas y Residentes Locales, ofreciendo información detallada y servicios útiles para explorar y disfrutar tanto de los destinos turísticos como de la vida cotidiana en El Chaltén"
-                link="https://infochalten.com/"
-                github="https://github.com/polsze/"
-                type="Proyecto Finalizado"
-              />
-            </div>
+            
 
             <div className="col-span-12 px-6 pb-6">
               <FeaturedProject5
@@ -439,6 +442,15 @@ const projects = () => {
                 github="github.com/polsze/yarara"
                 type="Proyecto en Desarrollo"
               />
+            </div>
+          </div>
+          <div className="w-full flex flex-col justify-center items-center mt-10 mb-14">
+            <h2 className="text-4xl w-[20%] mx-auto font-extrabold">¿Tenes un proyecto en mente? Manos a la obra!💪</h2>
+            <div className="border w-36 h-12 flex flex-row items-center justify-around mt-5 rounded-full bg-gradient-to-r from-green-500 via-violet-400 to-violet-600">
+              <a href='https://api.whatsapp.com/send?phone=543765252582' target={"_blank"} className="flex flex-row items-center">
+              <span className="text-white mr-1">Hablemos!</span>
+              <Icon icon="logos:whatsapp-icon" width={28} />
+              </a>
             </div>
           </div>
         </Layout>
