@@ -21,27 +21,27 @@ const servicesCards = [
   },
   {
     title: "Landing Page",
-    description: "Desde el primer boceto hasta el lanzamiento final, creo experiencias digitales que son intuitivas y conectan de forma genuina con tu público.",
+    description: "Diseño páginas efectivas que captan la atención de tus visitantes desde el primer segundo. Con un enfoque en la conversión, creo experiencias visuales y persuasivas que guían a los usuarios hacia la acción que deseas.",
     icono: Landing
   },
   {
     title: "eCommerce",
-    description: "Desde el primer boceto hasta el lanzamiento final, creo experiencias digitales que son intuitivas y conectan de forma genuina con tu público.",
+    description: "Desarrollo tiendas online funcionales y visualmente atractivas que ofrecen una experiencia de compra fluida y segura. Desde la navegación intuitiva hasta el proceso de pago optimizado, garantizo que cada aspecto de tu ecommerce esté diseñado para maximizar las ventas.",
     icono: Ecommerce
   },
   {
     title: "Aplicaciones Mobile",
-    description: "Desde el primer boceto hasta el lanzamiento final, creo experiencias digitales que son intuitivas y conectan de forma genuina con tu público.",
+    description: "Creo aplicaciones móviles innovadoras que se adaptan a las necesidades de tu negocio y a las expectativas de tus usuarios. Con un diseño centrado en la usabilidad y una tecnología de vanguardia, ofrezco soluciones móviles que impulsan el compromiso y la fidelidad de tus clientes.",
     icono: Mobile
   },
   {
     title: "Community Manager",
-    description: "Desde el primer boceto hasta el lanzamiento final, creo experiencias digitales que son intuitivas y conectan de forma genuina con tu público.",
+    description: "Gestiono y fortalezco la presencia de tu marca en las redes sociales, creando contenido relevante, interactuando con tu audiencia y construyendo una comunidad fiel y comprometida que impulsa el crecimiento de tu negocio.",
     icono: WebDesing
   },
   {
-    title: "Content Video Creator",
-    description: "Desde el primer boceto hasta el lanzamiento final, creo experiencias digitales que son intuitivas y conectan de forma genuina con tu público.",
+    title: "Creador de Contenido",
+    description: "Transformo ideas en contenido atractivo y relevante para tu audiencia. Desde artículos y blogs hasta videos y gráficos, desarrollo materiales que resuenan con tu público y refuerzan la identidad de tu marca.",
     icono: ContentVideo
   }
 ]
