@@ -61,11 +61,11 @@ const Services = () => {
           <AnimatedText text='Servicios y soluciones' className='py-16 lg:!text-7xl sm:!text-5xl xs:!text-3xl sm:mb-8 xs:py-2' />
           <div className="w-[40%] grid grid-cols-2 mx-auto 2xl:w-[50%] xl:w-[60%] lg:w-[80%] sm:grid-cols-1">
             {servicesCards.map((services, index) => (
-              <div class="max-w-sm rounded overflow-hidden shadow-lg mb-10 mx-2">
-                <Image class="mx-auto" src={services.icono} alt="" />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2 text-center">{services.title}</div>
-                  <p class="text-gray-700 text-base">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg mb-10 mx-2" key={index}>
+                <Image className="mx-auto" src={services.icono} alt="" />
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2 text-center">{services.title}</div>
+                  <p className="text-gray-700 text-base">
                     {services.description}
                   </p>
                 </div>
@@ -73,7 +73,7 @@ const Services = () => {
             ))}
           </div>
           <div className="w-full flex flex-col justify-center items-center mt-10 mb-14">
-            <h2 className="text-4xl w-[20%] mx-auto font-extrabold lg:w-[30%] sm:w-[60%]">¿Tenes un proyecto en mente? Manos a la obra!💪</h2>
+            <h2 className="text-4xl w-[20%] mx-auto font-extrabold lg:w-[30%] sm:w-[60%] sm:text-center sm:text-3xl">¿Tenes un proyecto en mente? Manos a la obra!💪</h2>
             <div className="border w-36 h-12 flex flex-row items-center justify-around mt-5 rounded-full bg-gradient-to-r from-green-500 via-violet-400 to-violet-600">
               <a href='https://api.whatsapp.com/send?phone=543765252582' target={"_blank"} className="flex flex-row items-center">
               <span className="text-white mr-1">Hablemos!</span>
