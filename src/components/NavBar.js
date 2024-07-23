@@ -57,12 +57,12 @@ const NavBar = () => {
 			<div className='w-full flex flex-row justify-between'>
 				<div className='lg:w-full lg:flex lg:justify-end'>
 					<span className='font-semibold text-lg'>Pablo&nbsp;</span>
-					<span className='font-extrabold text-gray-400 text-xl'>Barrios</span>
+					<span className='font-extrabold text-violet-600 text-xl'>Barrios</span>
 				</div>
-				<nav className='lg:hidden'>
+				<nav className=' lg:hidden'>
 					<CustomLink href='/' title='Inicio' className='mr-4 text-gradient font-semibold' />
 					<CustomLink href='/about' title='Sobre mí' className='mx-4 text-black  font-semibold' />
-					<CustomLink href='/projects' title='Proyectos' className='ml-4 text-black font-semibold' />
+					<CustomLink href='/projects' title='Proyectos' className='mx-4 text-black font-semibold' />
 					<CustomLink href='/services' title='Servicios' className='ml-4 text-black font-semibold' />
 				</nav>
 				<span className='lg:hidden'>polbarrios835237@gmail.com</span>

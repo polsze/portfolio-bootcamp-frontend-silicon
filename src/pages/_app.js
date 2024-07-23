@@ -5,12 +5,22 @@ import NavBar from '../components/NavBar'
 import Head from 'next/head'
 import { AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/router'
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-mont"
 })
+
+
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   const router = useRouter();
   return (
     <>

@@ -7,7 +7,8 @@ module.exports = {
         mont: ['var(--font-mont)'],
         lobster: ['Lobster', 'cursive'],
         racing: ['Racing Sans One', 'sans-serif'],
-        oswald: ['Oswald', 'sans-serif']
+        oswald: ['Oswald', 'sans-serif'],
+        bebas: ['Bebas Neue', 'sans-serif']
       },
       colors: {
     dark: "#1b1b1b",
@@ -15,12 +16,21 @@ module.exports = {
     primary: "#B63E96", // 240,86,199
     primaryDark: "#58E6D9", // 80,230,217
       },
+      keyframes: {
+        flip: {
+          '0%, 100%': { transform: 'rotateY(0)' },
+          '50%': { transform: 'rotateX(180deg)' },
+        },
+      },
       animation: {
         'spin-slow': 'spin 3s linear infinite',
+        'animation-flip': 'flip 4s ease infinite',
       },
       backgroundImage: {
         "heroBg":"url(/images/profile/pablobarrios.png)",
-        "contactBg":"url(/images/profile/bgcode3.webp)"       
+        "contactBg":"url(/images/profile/bgcode3.webp)",
+        "cmBg":"url(/images/profile/bg-cm.png)",
+        "cmBg2":"url(/images/profile/bg-cm2.png)"        
       },
     },
     screens:{

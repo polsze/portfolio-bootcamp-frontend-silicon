@@ -13,7 +13,10 @@ const Footer = () => {
       <Layout className='py-8 flex items-center justify-between lg:flex-col lg:py-4 sm:flex-col'>
         <span className=' text-black relative z-40 pl-2 sm:pl-0'>{new Date().getFullYear()} &copy; Posadas, Argentina.</span>
         <div className='text-black flex items-center sm:flex-col sm:mt-4'>
-          Pablo Barrios Portfolio
+        <div className='lg:w-full lg:flex lg:justify-end'>
+					<span className='font-semibold text-lg'>Pablo&nbsp;</span>
+					<span className='font-extrabold text-emerald-600 text-xl'>Barrios</span>
+				</div>
           <div className='flex items-center justify-center flex-wrap'>
             <motion.a href='https://api.whatsapp.com/send?phone=543765252582' target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className=' w-6 mx-3 bg-green-600 rounded-full'><WhatsAppIcon /></motion.a>
           </div>
