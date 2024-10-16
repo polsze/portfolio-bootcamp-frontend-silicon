@@ -11,7 +11,8 @@ import Project3 from "../../public/images/projects/serviceoficial-caba.webp";
 import Project4 from "../../public/images/projects/infochalten-hero.webp";
 import Project5 from "../../public/images/projects/eflow.png";
 import Project6 from "../../public/images/projects/suka.webp";
-import Project7 from "../../public/images/projects/om3ga.png";
+import Project7 from "../../public/images/projects/banner-om3ga.jpg";
+import Project8 from "../../public/images/projects/angora-banner.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import { Icon } from '@iconify/react';
@@ -124,6 +125,63 @@ const FeaturedProject2 = ({ type, title, summary, img, link, github }) => {
             className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base"
           >
             Visitá la página
+          </a>
+        </div>
+      </div>
+    </article>
+  );
+};
+
+const FeaturedProject8 = ({ type, title, summary, img, link, github }) => {
+  return (
+    <article
+      className="w-full flex items-center justify-between rounded-br-2xl rounded-3xl border border-solid border-dark
+     bg-light shadow-2xl p-12 relative lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4
+     "
+    >
+      <div className="absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl"></div>
+      <Link
+        href={link}
+        target={"_blank"}
+        className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
+      >
+        <FramerImage
+          src={img}
+          alt={title}
+          className="w-full h-auto"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
+        />
+      </Link>
+
+      <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
+        <span className="text-primary font-medium text-xl xs:text-base">
+          {type}
+        </span>
+        <Link
+          href={link}
+          target={"_blank"}
+          className="hover:underline underline-offset-2"
+        >
+          <h2 className="my-2 w-full text-left text-4xl font-bold sm:text-sm">
+            {title}
+          </h2>
+        </Link>
+        <p className="my-2 font-medium text-dark">{summary}</p>
+        <div className="mt-2 flex items-center">
+          <Link
+            href="https://www.github.com/polsze"
+            target={"_blank"}
+            className="w-10"
+          >
+            <GithubIcon />
+          </Link>
+          <a
+            href="https://www.angoraindumentaria.com/"
+            target={"_blank"}
+            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base"
+          >
+            Visitá la tienda
           </a>
         </div>
       </div>
@@ -453,15 +511,17 @@ const projects = () => {
             </div>
 
             <div className="col-span-12 px-6">
-              <FeaturedProject3
-                title="Service Oficial CABA"
-                img={Project3}
-                summary="Landing page para un Servicio Técnico de Heladeras de Capital Federal, Buenos Aires."
-                link="https://serviceoficial-caba.com.ar/"
-                github="https://github.com/polsze/serviceoficial-caba"
-                type="Proyecto finalizado"
+              <FeaturedProject8
+                title="Angora Indumentaria"
+                img={Project8}
+                summary="E-Commerce de indumentaria masculina para una empresa radicada en la ciudad de Posadas, Misiones."
+                link="https://www.angoraindumentaria.com/"
+                github="https://github.com/polsze/"
+                type="Proyecto destacado"
               />
             </div>
+
+            
 
             <div className="col-span-12 px-6">
               <FeaturedProject7
@@ -471,6 +531,17 @@ const projects = () => {
                 link="https://www.instagram.com/Om3gaCs/"
                 github="https://github.com/polsze/"
                 type="Trabajando actualmente"
+              />
+            </div>
+
+            <div className="col-span-12 px-6">
+              <FeaturedProject3
+                title="Service Oficial CABA"
+                img={Project3}
+                summary="Landing page para una Empresa de Servicio Técnico de Heladeras de Capital Federal, Buenos Aires."
+                link="https://serviceoficial-caba.com.ar/"
+                github="https://github.com/polsze/serviceoficial-caba"
+                type="Proyecto finalizado"
               />
             </div>
 

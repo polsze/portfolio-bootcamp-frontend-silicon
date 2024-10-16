@@ -8,14 +8,14 @@ import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from 'framer-motion';
 import { GithubIcon, LinkedInIcon, WhatsAppIcon } from '@/components/Icons';
 import Image from 'next/image'
-import OMG from '../../public/images/profile/om3ga.jpg'
-import PostOne from '../../public/images/profile/omega-post-1.jpg'
-import PostTwo from '../../public/images/profile/omega-post-2.jpg'
-import PostThree from '../../public/images/profile/omega-post-3.jpg'
-import PostFour from '../../public/images/profile/omega-post-4.jpg'
-import PostFive from '../../public/images/profile/omega-post-5.jpg'
-import Planta from '../../public/images/profile/planta.png'
+import OMG from '../../public/images/profile/final-ags.jpg'
+import PostOne from '../../public/images/profile/campeones-ags.jpg'
+import PostTwo from '../../public/images/profile/showmatch-om3ga.jpg'
+import PostThree from '../../public/images/profile/psl2-campeones.jpg'
+import PostFour from '../../public/images/profile/hub-new.jpg'
+import PostFive from '../../public/images/profile/hub-old-om3ga.png'
 import { Icon } from '@iconify/react';
+
 
 
 
@@ -85,7 +85,9 @@ export default function Home() {
               </h2>
             </div>
             <div className='w-[50%] border-l-2 border-lime-300 flex flex-row items-center relative sm:w-full 2xl:m-auto 2xl:border-none'>
-              <div className='h-7 w-7 rounded-full animate-bounce bg-lime-300 '></div>
+              <a href='https://www.instagram.com/p/C8FcPfHJJ0B/?img_index=2' target='_blank'>
+                <Icon icon="skill-icons:instagram" className='animate-bounce ml-1' width={30} />
+              </a>
               <span className='w-full border-b-2 border-lime-300 absolute'>
                 <div className='w-full flex flex-row justify-evenly'>
                   <h3 className='text-xl font-oswald uppercase text-gray-200 sm:text-lg'>community manager</h3>
@@ -95,23 +97,23 @@ export default function Home() {
             <div className="py-6 bg-white w-full">
               <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="space-y-6 sm:flex-col  md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                  <div className=" flex flex-row flex-wrap blur transition-all ease-in-out duration-300 xl:w-full 2xl:w-2/3 2xl:justify-center 2xl:m-auto 2xl:items-center 2xl:blur-none  hover:blur-none">
-                    <a href='https://www.instagram.com/p/C8FcPfHJJ0B/?img_index=2' target='_blank'>
+                  <div className=" flex flex-row flex-wrap xl:w-full 2xl:w-2/3 2xl:justify-center 2xl:m-auto 2xl:items-center">
+                    <a href='https://www.instagram.com/p/DBJd884pk16/?img_index=1' target='_blank'>
                       <Image src={PostOne} alt="image" loading="lazy" width="300" height="300" className='rounded-tl-xl sm:rounded-tr-xl' />
                     </a>
-                    <a href='https://www.instagram.com/p/C9Dh_WMpWW6/?img_index=1' target='_blank'>
+                    <a href='https://www.instagram.com/p/DATYDdNpHiF/' target='_blank'>
                       <Image src={OMG} alt="image" loading="lazy" width="300" height="300" className='lg:rounded-tr-xl sm:rounded-none' />
                     </a>
-                    <a href='https://www.instagram.com/p/C8NdSuYpkF2/' target='_blank'>
+                    <a href='https://www.instagram.com/p/DAqWR2uJr8v/' target='_blank'>
                       <Image src={PostFour} alt="image" loading="lazy" width="300" height="300" className='rounded-tr-xl sm:rounded-none' />
                     </a>
-                    <a href='https://www.instagram.com/p/C84T10NOeS0/?img_index=1' target='_blank'>
+                    <a href='https://www.instagram.com/p/DAyYrZYJPhi/?img_index=1' target='_blank'>
                       <Image src={PostThree} alt="image" loading="lazy" width="300" height="300" className='rounded-bl-xl lg:rounded-none ' />
                     </a>
-                    <a href='https://www.instagram.com/p/C8FcPfHJJ0B/?img_index=1' target='_blank'>
+                    <a href='https://www.instagram.com/p/DA_BNBNJv5F/' target='_blank'>
                       <Image src={PostTwo} alt="image" loading="lazy" width="300" height="300" className='lg:rounded-bl-xl sm:rounded-none' />
                     </a>
-                    <a href='https://www.instagram.com/p/C9uu5QypVXB/?img_index=1' target='_blank'>
+                    <a href='https://www.instagram.com/p/C-IPx5oJxfB/' target='_blank'>
                       <Image src={PostFive} alt="image" loading="lazy" width="300" height="300" className='rounded-br-xl sm:rounded-bl-xl' />
                     </a>
 
@@ -129,14 +131,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='flex flex-row justify-center w-full h-auto bg-violet-800  2xl:flex-col' data-aos="fade-up">
+          <div className='flex flex-row justify-center w-full h-auto bg-gradient-to-l bg-violet-800  2xl:flex-col' data-aos="fade-up">
 
             <div className="py-16 bg-white w-full">
               <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="space-y-6 sm:flex sm:flex-col md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                  <div className="flex flex-row justify-center space-x-4 blur transition-all ease-in-out duration-300 hover:blur-none 2xl:blur-none sm:flex-col sm:space-x-0">
+                  <div className="flex flex-row justify-center space-x-4 2xl:blur-none sm:flex-col sm:space-x-0">
                     <iframe
-                      src="https://www.instagram.com/reel/C8H7sqLsWBK/embed"
+                      src="https://www.instagram.com/p/DA8SH4TMBFG/embed"
                       width="250"
                       height="480"
                       frameBorder="0"
@@ -145,7 +147,7 @@ export default function Home() {
                       allow="encrypted-media">
                     </iframe>
                     <iframe
-                      src="https://www.instagram.com/reel/C8ZZcd8soIi/embed"
+                      src="https://www.instagram.com/p/C_YMg8EshFS/embed"
                       width="250"
                       height="480"
                       frameBorder="0"
@@ -153,7 +155,6 @@ export default function Home() {
                       allowtransparency="true"
                       allow="encrypted-media">
                     </iframe>
-                    <Image src={Planta} alt="" className='absolute -right-40 overflow-hidden 2xl:-right-2 -z-20' />
                   </div>
                   <div className="">
                     <h2 className="text-5xl text-black font-extrabold font-bebas md:text-4xl ">Creación de Contenido</h2>
@@ -166,7 +167,7 @@ export default function Home() {
             </div>
 
             <div className='w-[50%] border-r-2 border-lime-300 flex flex-row items-center relative sm:w-full 2xl:m-auto 2xl:border-none first-letter:'>
-              <div className='h-7 w-7 rounded-full animate-bounce bg-lime-300 absolute right-0'></div>
+              <Icon icon="skill-icons:instagram" className='animate-bounce mr-1 absolute right-0' width={30} />
               <span className='w-full border-b-2 border-lime-300'>
                 <div className='w-full flex flex-row justify-evenly'>
                   <h3 className='text-xl font-oswald uppercase text-gray-200'>content creator</h3>
