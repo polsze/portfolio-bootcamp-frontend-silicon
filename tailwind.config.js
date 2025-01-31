@@ -27,7 +27,7 @@ module.exports = {
         'animation-flip': 'flip 4s ease infinite',
       },
       backgroundImage: {
-        "heroBg":"url(/images/profile/pablobarrios.png)",
+        "heroBg":"url(/images/profile/pablobarrios.webp)",
         "contactBg":"url(/images/profile/bgcode3.webp)",
         "cmBg":"url(/images/profile/bg-cm.png)",
         "cmBg2":"url(/images/profile/bg-cm2.png)"        
