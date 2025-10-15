@@ -16,6 +16,10 @@ import { Icon } from '@iconify/react';
   import Project5 from "../../public/images/projects/banner-om3ga.webp";
   import Project6 from "../../public/images/projects/angora-banner.webp";
   import Project7 from "../../public/images/projects/eflow.webp";
+  import Project8 from "../../public/images/projects/solo-ofertas-carnes.webp";
+  import Project9 from "../../public/images/projects/gameonline.webp";
+  import Project10 from "../../public/images/projects/yaguarete-softbol-posadas.webp";
+  import Project11 from "../../public/images/projects/bakutech.webp";
  
 const FramerImage = motion(Image);
 
@@ -46,7 +50,7 @@ const projectsData = [
   {
     title: "Haush Guitars",
     img: Project1,
-    summary: "Página web para un Luthier profesional de Buenos Aires que trabaja con artistas de renombre en el ambiente del Rock Nacional. En proceso de incorporación de E-Commerce.",
+    summary: "Página web para un Luthier profesional de Buenos Aires que trabaja con artistas de renombre en el ambiente del Rock Nacional. Gestión y manejo de Instagram (+3K de seguidores)",
     link: "https://www.haushguitars.com",
     github: "https://github.com/polsze/Haush-Guitars",
     type: "Proyecto destacado"
@@ -60,11 +64,43 @@ const projectsData = [
     type: "Proyecto destacado"
   },
   {
+    title: "Solo Ofertas Carnes",
+    img: Project8,
+    summary: "Página web, Campaña publicitaria en META (con excelentes resultados), gestión y manejo de Redes Sociales.",
+    link: "https://www.soloofertascarnes.com",
+    github: "",
+    type: "Proyecto destacado"
+  },
+  {
+    title: "GameOnline!",
+    img: Project9,
+    summary: "Gestión y manejo de Redes Sociales, Creación de contenido multimedia, Videos cinemáticos e imagenes. Diseño de Merchandising de los eventos (Credenciales con QR personalizado, Diseño para indumentaria, banners).",
+    link: "https://www.instagram.com/gameonlinex/",
+    github: "",
+    type: "Proyecto destacado"
+  },
+  {
     title: "Service Oficial CABA",
     img: Project3,
-    summary: "Desarrollé una landing page para una empresa de servicio técnico de heladeras en Capital Federal, Buenos Aires,",
+    summary: "Desarrollé una landing page para una empresa de servicio técnico de heladeras en Capital Federal, Buenos Aires, y gestión de Campaña publicitaria en GOOGLE ADS (Alcance en Buenos Aires).",
     link: "https://serviceoficial-caba.com.ar/",
     github: "https://github.com/polsze/serviceoficial-caba",
+    type: "Proyecto destacado"
+  },
+  {
+    title: "Bakutech Systems",
+    img: Project11,
+    summary: "Desarrollé una página web para una empresa del nicho IT. Con optimizacion de SEO orgánico.",
+    link: "https://bakutech.com.ar",
+    github: "",
+    type: "Proyecto destacado"
+  },
+  {
+    title: "Yaguaretés Softbol Posadas",
+    img: Project10,
+    summary: "Gestión y creación de contenido multimedia en Instagram. Diseño de Revista digital. Diseños de merchandising para el evento internacional disputado en Posadas, 'Copa Triple Frontera'",
+    link: "https://www.instagram.com/yaguaretesoftbolposadas_/",
+    github: "",
     type: "Proyecto destacado"
   },
   {
