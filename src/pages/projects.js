@@ -58,7 +58,7 @@ const projectsData = [
   {
     title: "Info Chaltén",
     img: Project2,
-    summary: "Desarrollé una aplicación Low Code y una landing page para turistas y residentes de El Chaltén, brindando información detallada y servicios útiles para explorar sus atractivos y facilitar la vida cotidiana.",
+    summary: "Desarrollé una aplicación Low Code y una landing page para turistas y residentes de El Chaltén, brindando información detallada y servicios útiles para explorar sus atractivos y facilitar la vida cotidiana. Gestión de Redes Sociales.",
     link: "https://www.infochalten.com",
     github: "https://github.com/polsze/infochalten",
     type: "Proyecto destacado"
