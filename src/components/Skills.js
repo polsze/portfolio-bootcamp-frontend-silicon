@@ -31,14 +31,14 @@ const Skills = () => {
         <Skill name='HTML' x='-22vw' y='1vw'/>
         <Skill name='CSS' x='-1vw' y='-10vw' />
         <Skill name='JavaScript' x='20vw' y='6vw' />
-        <Skill name='Angular' x='0vw' y='12vw' />
-        <Skill name='Java Spring Boot' x='-27vw' y='-10vw' />
+        <Skill name='Canva' x='0vw' y='12vw' />
+        <Skill name='Adobe Photoshop' x='-27vw' y='-10vw' />
         <Skill name='MySQL' x='15vw' y='-12vw' />
-        <Skill name='Angular' x='32vw' y='-5vw' />
-        <Skill name='ReactJS' x='0vw' y='-23vw' />
+        <Skill name='Adobe Premiere Pro' x='29vw' y='-5vw' />
+        <Skill name='ReactJS' x='0vw' y='-21vw' />
         <Skill name='Next.JS' x='18vw' y='-20vw' />
         <Skill name='TailwindCSS' x='-25vw' y='15vw' />
-        <Skill name='Bootstrap' x='-18vw' y='-18vw' />
+        <Skill name='Figma' x='-18vw' y='-18vw' />
 
       </div>
     </>
