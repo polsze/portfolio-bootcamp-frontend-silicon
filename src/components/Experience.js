@@ -43,12 +43,12 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between'>
           <Details
-            position="Desarrollador Web"
+            position="Desarrollador Web, Diseñador multimedia, Community manager"
             company="Freelance"
             companyLink="www.google.com"
             time="2023 - Presente"
             address="Posadas, Misiones"
-            work="Desarrollo de aplicaciones, páginas web y sistemas"
+            work="Desarrollo de aplicaciones, páginas web y sistemas, gestión de redes sociales, gestión de campañas publicitarias en Meta y Google"
           />
           <Details
             position="Vendedor Viajante"

@@ -44,6 +44,18 @@ const Education = () => {
 
         <ul className='w-full flex flex-col items-start justify-between'>
         <Details
+            type="Marketing Digital"
+            time="2025"
+            place="Programa de Formación del Ministerio de Capital Humano"
+            info="Introducción al Marketing Digital, Optimización de Posicionamiento Web, Marketing de Contenido (Tipos de redes, Pago y segmentación), análisis de indicadores de desempeño"
+          />
+        <Details
+            type="Flujos de Trabajo Con Inteligencia Artificial"
+            time="2025"
+            place="Big School"
+            info="Optimización de prompts, entrenamiento de IA, plafinicación de estrategias de trabajos digitales"
+          />
+        <Details
             type="Desarrollo Web Full Stack React - Node.JS"
             time="2023"
             place="Silicon Misiones"
